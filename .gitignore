@@ -1,0 +1,42 @@
+# Flutter/Dart-specific ignores
+.dart_tool/
+.packages
+*.iml
+*.ipr
+*.iws
+
+# Build output
+build/
+android/app/build/
+ios/Pods/
+ios/.symlinks/
+linux/flutter/ephemeral/
+macos/Flutter/ephemeral/
+web/build/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Compiled artifacts
+*.apk
+*.ipa
+*.jar
+*.dex
+*.class
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Dependency directories
+node_modules/
+
+# Credentials/Secrets
+*.env
+
+# Personal IDE settings
+.idea/
